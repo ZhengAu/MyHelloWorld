@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>rgba,has和hsla,a代表透明度</title>
+    <style media="screen">
+      div{
+        width: 800px;
+        border: 1px solid rgb(37, 181, 80);
+      }
+      .div1{
+        height: 500px;
+        background: url('sky.jpg') top left no-repeat;
+      }
+      .div-child{
+        height: 200px;
+        background-color: rgba(0, 0,255,0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <div class="div-child">
+        <img src="sky.jpg" alt="天空">
+      </div>
+    </div>
+  </body>
+</html>
