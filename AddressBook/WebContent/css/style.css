@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color: #ddd;
+	/* filter:alpha(opacity:90);
+	opacity: 0.9; */ 
+}
+ .container {
+	background-color: #fff;
+	padding-top: 40px;
+	min-height: 700px;
+}
+
+.head {
+	background-color: #87D0F0;
+	padding: 10px;
+	margin: 0px 10px;
+	border-radius: 8px;
+}
+.head h1{
+	letter-spacing: 1px;/*字体间距*/
+	font-family: "arial","华文行楷";
+	font-size: 44px;
+}
+.head-right{
+	font-size: 17px;
+	padding-top: 46px;
+}
+/* 退出系统按钮 */
+.logout a{
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+}
+.head-right a:hover{
+	color: #FFFFFF;
+}
+.main {
+	width: 100%;
+	padding: 0px 10px;
+/* 	height: 500px; */
+}
+/* 编辑、删除icon */
+.fa {
+	color: #000;
+}
+/* 表格内容居中 */
+table, th {
+	text-align: center;
+}
+
+table thead {
+	background-color: #AFD1F3;
+}
+tbody tr{
+	cursor: pointer;
+}
+
+.table-responsive{
+	height: 420px;
+	border-top: 1px solid #ccc;
+	box-shadow: 0px 2px 2px #777;
+}
+
+.foot {
+	background-color: #D2D8D8;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.foot p {
+	margin: 5px 0 5px;
+}
+/* 搜过组 */
+.search-group{
+	padding:5px 12px;
+}
+/* 搜索框内容展示 */
+#showResult{
+	display:none;
+	z-index:10;
+	position:absolute;
+	max-width:194px;
+	min-width: 171px;
+	border:1px solid #999;
+	background:#fff;
+}
+/* 搜索内容框中记录 */
+.resultLI{
+	padding: 4px 0 3px 8px;	
+	font-size: 15px;
+	cursor: pointer;
+}
