@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+/* 添加，修改的弹出层 */
+.popupLayerOfAdd, .popupLayerOfEdit {
+	background-color: rgba(179, 179, 179, 0.73);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 0;
+}
+.layer {
+	padding: 20px;
+	position: relative;
+	margin: 60px auto;
+	width: 600px;
+	height: 500px;
+	background-color: #fff;
+	opacity: 1;
+	overflow: auto;
+	border-left: 2px solid #85B6E2;
+	border-right: 2px solid #85B6E2;
+	border: 2px solid #AFD1F3;
+	border-radius: 8px;
+}
+.layer input{
+	text-indent: 5px;
+	margin-right: 5px;
+}
+
+.cancel {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;
+	width: 60px;
+	padding: 4px 0;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #85B6E2;
+	color: #333;
+}
+
+.cancel:hover {
+	color: #fff;
+	border: 1px solid #85B6E2;
+	background: #85B6E2;
+}
+
+.layer .layer-top span {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	font: bold 16px "Microsoft YaHei";
+	color: #85B6E2;
+}
+
+.layer-top {
+	margin-top: 50px;
+}
+
+.addForm, .editForm {
+	padding-left: 10px;
+}
+
+.addForm button, .editForm button {
+	width: 66px;
+}
+
+.addForm .row, .editForm .row {
+	margin-top: 15px;
+}
+
+.addForm .button-group, .editForm .button-group {
+	margin-top: 20px;
+}
+.addForm input[type="date"], .editForm input[type="date"]{
+	width: 175px;
+}
+.redStar{
+	color: #f00;
+}
+.error{
+	color: #f00;
+}
+
